@@ -5,12 +5,9 @@ This is a sample page. The website focuses on implementing the basics of HTML an
 
 2 hours and 30mins
 
-## Learned 
-- More on creating shapes
-
 ### The deployed Version Link
 
-[SAAS Landing Page]()
+[SAAS Landing Page](https://saas-lp.netlify.app/)
 
 ### SnapShot of the Webpage
 
