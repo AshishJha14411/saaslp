@@ -3,7 +3,7 @@ This is a sample page. The website focuses on implementing the basics of HTML an
 
 ## Time taken
 
-2 hours and 30mins
+3hours and 30 mins = 2 hours and 30mins + 1 hour(responsive)
 
 ### The deployed Version Link
 
