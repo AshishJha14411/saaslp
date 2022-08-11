@@ -6,11 +6,12 @@
 }
 body {
   font-family: "Roboto";
+  overflow-x: hidden;
 }
 .header {
   background-color: #7030cc;
   padding: 3rem 3rem 0rem 5rem;
-  height: 80vh;
+  height: 80%;
 }
 .navbar {
   display: flex;
@@ -36,7 +37,7 @@ img[alt="nav-logo"] {
   display: flex;
   justify-content: space-around;
   width: 50%;
-  padding-left: 15rem;
+  margin-left: 15rem;
 }
 .nav-btn {
   background-color: #1bbcef;
@@ -50,6 +51,7 @@ img[alt="nav-logo"] {
   background-color: #fff;
   transition: ease-in 0.2s;
   color: black;
+  font-weight: 700;
 }
 .below-nav,
 .main1 {
@@ -65,7 +67,7 @@ img[alt="nav-logo"] {
   color: white;
 }
 .big-text {
-  font-size: 70px;
+  font-size: 2.75rem;
   padding-bottom: 2rem;
 }
 .nav-img {
@@ -98,7 +100,7 @@ img[alt="nav-logo"] {
   width: 25rem;
 }
 .big-text3 {
-  padding-top: 3rem;
+  padding-top: 2.6rem;
 }
 img[alt="arrow"] {
   transform: scale(0.2);
@@ -123,9 +125,9 @@ img[alt="arrow"] {
 }
 .cards {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 25rem;
-  width: 80%;
+  width: 100%;
 }
 .img-circle {
   margin-left: 1.5rem;
@@ -146,6 +148,7 @@ img[alt="webdev"] {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  flex-wrap: wrap;
   height: 20rem;
   width: 12rem;
   text-align: center;
@@ -200,6 +203,7 @@ img[alt="webdev"] {
     justify-content: flex-start;
     width: 30rem;
     height: 40rem;
+    margin-left: -6rem;
   }
   .navbar {
     flex-direction: column;
@@ -235,6 +239,7 @@ img[alt="webdev"] {
     height: 55rem;
     flex-direction: column-reverse;
     justify-content: flex-start;
+    margin-left: -10rem;
   }
   .text-div2 {
     margin: -7rem 0 -10rem -4rem;
@@ -255,15 +260,15 @@ img[alt="webdev"] {
   }
   .main2 {
     padding: 0;
-    margin: 0;
+    margin: 0 0 0 -5rem;
   }
   .main2 .big-text2 {
     text-align: center;
-    margin-right: -10rem;
   }
   .cards {
     height: 100rem;
     flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -282,10 +287,11 @@ img[alt="webdev"] {
     padding-left: 10rem;
     flex-direction: column;
     justify-content: flex-start;
-    height: 40rem;
+    height: 50rem;
   }
   .main{
     margin-left: 10rem;
+    margin-top: -8rem;
   }
   .navbar {
     flex-direction: column;
@@ -341,7 +347,7 @@ img[alt="webdev"] {
   }
   .main2 {
     padding: 0;
-    margin: 0;
+    margin: 0 0 0 10rem;
   }
   .main2 .big-text2 {
     margin-left: -14rem;
@@ -349,15 +355,55 @@ img[alt="webdev"] {
   .cards {
     height: 100rem;
     flex-direction: column;
+    align-items: center;
+    margin-left: -15rem;
   }
+}
+@media(min-width: 770px) and (max-width: 1050px){
+  .header{
+    min-height: 30rem;
+  }
+  .main1{
+    display: flex;
+    margin-top: -8rem;
+  }
+  img[alt=sec-svg]{
+    margin-top: 10rem;
+    width: 20rem;
+  }
+  .nav-items{
+    margin-left: 0;
+  }
+  .cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+  }
+  .card{
+    margin-bottom: 7rem;
+    transform: scale(1.2);
+  }
+
 }
 @media (min-width: 1920px) {
   .header{
-    width: 155rem;
+    width: 100vw;
+    height: 60rem;
+  }
+  img[alt=firstsvg]{
+    width: 70rem;
+    margin-left: -20rem;
+    padding-left: 0;
   }
   img[alt="nav-logo"] {
     margin-top: 0.3rem;
     width: 13rem;
+  }
+  .text-div{
+    width: 50rem;
+    margin-left: 10rem;
   }
   .nav-item {
     font-size: 2rem;
