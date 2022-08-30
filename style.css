@@ -290,28 +290,19 @@ img[alt="webdev"] {
     flex-direction: column;
     justify-content: flex-start;
     height: 50rem;
+    min-width: 100%;
+  }
+  .nav-btn {
+    margin-right: 3rem;
   }
   .main{
     margin-left: 10rem;
     margin-top: -8rem;
-  }/* 
-  .navbar {
-    flex-direction: column;
   }
-  .nav-items {
-    margin: 0 0 0 10rem;
-    padding: 0;
-    flex-direction: column;
-  }
-  .nav-item {
-    margin-bottom: 0.5rem;
-  }
-  .nav-btn {
-    margin-top: 1rem;
-    margin-left: 8rem;
-  } */
   .below-nav {
     flex-direction: column;
+    align-items: center;
+    margin-right: 20%;
   }
   .text-div {
     padding: 0;
@@ -364,6 +355,7 @@ img[alt="webdev"] {
 @media(min-width: 770px) and (max-width: 1050px){
   .header{
     min-height: 30rem;
+    min-width: 100%;
   }
   .main1{
     display: flex;
@@ -375,6 +367,9 @@ img[alt="webdev"] {
   }
   .nav-items{
     margin-left: 0;
+  }
+  .nav-btn{
+    margin-left: 3rem;
   }
   .cards{
     display: flex;
