@@ -254,8 +254,6 @@ img[alt="webdev"] {
     margin-top: 10rem;
   }
   .main2 {
-    align-items: center;
-    align-content: center;
   }
   .main2 .big-text2 {
     text-align: center;
@@ -340,16 +338,16 @@ img[alt="webdev"] {
   }
   .main2 {
     padding: 0;
-    margin: 0 0 0 10rem;
+    margin: auto;
   }
   .main2 .big-text2 {
-    margin-left: -14rem;
+    margin-left: 0rem;
   }
   .cards {
     height: 100rem;
     flex-direction: column;
     align-items: center;
-    margin-left: -15rem;
+    margin-left:0;
   }
 }
 @media(min-width: 770px) and (max-width: 1050px){
@@ -382,12 +380,16 @@ img[alt="webdev"] {
     margin-bottom: 7rem;
     transform: scale(1.2);
   }
+  .main2{
+    margin-left: 10%;
+  }
 
 }
 @media (min-width: 1920px) {
   .header{
-    width: 100vw;
+    width: 110%;
     height: 60rem;
+    overflow-x: hidden;
   }
   img[alt=firstsvg]{
     width: 70rem;
@@ -434,6 +436,9 @@ img[alt="webdev"] {
  .card{
     transform: scale(2);
     margin-top: 9rem;
+ }
+ .main2{
+  margin-left: 12%;
  }
 }
 
